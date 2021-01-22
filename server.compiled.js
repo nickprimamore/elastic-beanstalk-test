@@ -6,7 +6,7 @@ var path = require('path');
 
 var cors = require('cors');
 
-var PORT = process.env.HTTP_PORT || 4001;
+var PORT = process.env.HTTP_PORT || 8081;
 var app = express();
 app.use(cors());
 app.use(express["static"](path.join(__dirname, 'client', 'build')));
