@@ -2,7 +2,7 @@ const express = require('express');
 const path = require('path');
 const cors = require('cors');
 
-const PORT = process.env.HTTP_PORT || 8081;
+const PORT = process.env.HTTP_PORT || 4001;
 const app = express();
 
 app.use(cors());
